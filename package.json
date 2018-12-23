@@ -1,5 +1,5 @@
 {
-  "name": "cra-config",
+  "name": "@watchmen/cra-config",
   "version": "1.0.0",
   "description": "rich configuration for create-react-app",
   "main": "src/index.js",
@@ -7,10 +7,7 @@
     "test": "echo \"all-good!\""
   },
   "bin": "src/cli.js",
-  "repository": {
-    "type": "git",
-    "url": "cra-config"
-  },
+  "repository": "the-watchmen/cra-config",
   "keywords": [
     "create-react-app",
     "react",
@@ -18,5 +15,8 @@
     "config"
   ],
   "author": "tlk",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
 }
