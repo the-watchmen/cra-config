@@ -6,7 +6,7 @@ const appRoot = require("app-root-path");
 
 module.exports = (function() {
   const { env } = process;
-  const _env = env.CONFIG_ENV || "local";
+  const _env = env.NODE_ENV || "local";
   const dir = env.CONFIG_DIR || `${appRoot}/config`;
   const result = _.merge(
     getVal(`${dir}/default.js`),

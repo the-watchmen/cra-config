@@ -74,9 +74,9 @@ module.exports = {
 
 ### `{environment-name}.js`
 
-this file would contain values to be used when the environment-variable `CONFIG_ENV` is set to `environment-name`.
+this file would contain values to be used when the environment-variable `NODE_ENV` is set to `environment-name`.
 
-> for example, `lab.js` would be used when the `CONFIG_ENV` environment-variable is set to `lab`
+> for example, `lab.js` would be used when the `NODE_ENV` environment-variable is set to `lab`
 
 ### `default.js`
 
