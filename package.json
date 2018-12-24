@@ -18,5 +18,11 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "lodash": ">=4"
+  },
+  "dependencies": {
+    "app-root-path": "^2.1.0"
   }
 }
