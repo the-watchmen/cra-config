@@ -16,7 +16,7 @@ if your requirements involve environments outside of those supported and/or you 
   "scripts": {
     "start": "REACT_APP_CONFIG=$(cra-config) react-scripts start",
     "build": "REACT_APP_CONFIG=$(cra-config) react-scripts build",
-    "test": "REACT_APP_CONFIG=$(cra-config) react-scripts test",
+    "test": "NODE_ENV=test REACT_APP_CONFIG=$(cra-config) react-scripts test",
     "eject": "react-scripts eject"
   }
 ```
